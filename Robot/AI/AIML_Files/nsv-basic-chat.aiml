@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+            <template>
+                <random>
+                    <li>Well, hello!</li>
+                    <li>Hi!</li>
+                    <li>Howdy</li>
+                    <li>GDay mate</li>
+                    <li>Hey</li>
+                </random>
+            </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+            <template>
+                <srai>HELLO</srai>
+            </template>
+    </category>
+
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+            <template>
+                I'm a bot, silly!
+            </template>
+    </category>
+
+</aiml>
