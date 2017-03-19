@@ -1,10 +1,6 @@
-Scope:
-(General Overview)
-  This trnasmitter will communicate with a robot using bluetooth. This remote will send signals to the robot, which will trigger certain functions. 
-
 Overview:
 (More indepth review)
-
+  This trnasmitter will communicate with a robot using bluetooth. This remote will send signals to the robot, which will trigger certain functions. 
 
 Hardware:
 (Overview of hardware used)
@@ -32,6 +28,3 @@ Hardware:
 Test Process:
 
 Software:
-
-Conclusion:
-
