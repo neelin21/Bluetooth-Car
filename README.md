@@ -1,4 +1,12 @@
-## Bluetooth-Car
+## Robot
+
+# To Do
+  1. Program the Controller
+  2. Finish Bluetooth and message code
+  3. Test Controller
+  4. Design Controller case
+  5. Finish multithreading code
+  6. Finish Robot Body
 
 # Scope:
 
