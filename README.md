@@ -1,5 +1,13 @@
 ## Bluetooth-Car
 
+# To Do
+  1. Program the Controller
+  2. Finish Bluetooth and message code
+  3. Test Controller
+  4. Design Controller case
+  5. Finish multithreading code
+  6. Finish Robot Body
+
 # Scope:
 
   This project will be comprised of a robot that will be able to perform various functions and a remote control that will initially control the robot. The robot will be able to communicate with an individual and answer questions and making conversations. This "intelligence" will begin in the form of a basic chat bot and will become more advanced as the project continues. The remote will being as a main source control for the robot. As the robots intelligence increases, the remote will become less used and more of a manual override.
