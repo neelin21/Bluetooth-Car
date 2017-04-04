@@ -40,8 +40,33 @@ void ReadADCs()
   return;
 }
 
-void AnalyzeADCValues(int X, int Y)
+void RotationJS(int X, int Y)
 {
+  if(X > 500)
+  {
+    //CW
+    BluetoothMessage[0] = 'C';
+    BluetoothMessage[0] = 'W';
+    BluetoothMessage[0] = '-';
+    BluetoothMessage[3] = X/100;
+  }
+  else if(X < 400)
+  {
+    //CCW
+    BluetoothMessage[0] = 'C';
+    BluetoothMessage[0] = 'C';
+    BluetoothMessage[0] = '-';
+    BluetoothMessage[3] = X/100;
+  }
+  return;
+}
+
+void MovementJS(int X, int Y)
+{
+  int ShortX = X/100;
+  int ShortY = Y/100;
+
   
   return;
 }
+

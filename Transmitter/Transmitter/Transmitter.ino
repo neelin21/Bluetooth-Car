@@ -17,6 +17,21 @@ Pin - Ports
 14 - GND
 */
 
+/*
+  Message Format:
+  Form: .__-#
+  .CW-#
+  .CC-#
+  .FO-#
+  .RE-#
+  .FL-#
+  .FR-#
+  .RL-#
+  .RR-#
+  .FU-#
+*/
+char BluetoothMessage[4];
+
 void setup()
 {
   //initialize pins and interrupts
